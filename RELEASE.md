@@ -23,6 +23,10 @@ This release does not complete every advanced ERP feature. The inherited IMPLEME
 
 GitHub Actions runs SQLite and MySQL tests, lint and Composer audit on each push. Browser and live deployment results are appended after verification.
 
+Verified GitHub run: [39621512005](https://github.com/shamilvakkaloor/Bizness-I.S.A/actions/runs/39621512005), commit `46dcee8`: **all checks passed**, including PHP 8.3.35, SQLite, MySQL 8.4 and Composer audit. Local authenticated smoke checks returned HTTP 200 for all 18 module/read endpoints. Desktop and 390-pixel mobile screenshots were inspected; login, product creation and settings/team display were checked in a browser.
+
+Deployment status: release prepared, database provisioned, **not yet uploaded**. Hostinger hosting tools became unavailable in the chat before the upload. The domain still needs deployment and live verification.
+
 ## Development
 
 Install PHP 8.3+ and Composer. Run `composer install`, copy `.env.example` to `.env`, generate the app key with `php artisan key:generate`, configure a local database, then run `php artisan migrate --seed` and `php artisan business:admin`. Start with `php artisan serve`; test with `composer test`. SQLite is supported locally; production uses MySQL.
