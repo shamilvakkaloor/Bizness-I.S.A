@@ -1,0 +1,432 @@
+{
+  "scope": "Static consistency only; no PHP parsing/execution, browser pass or backend validation",
+  "checks": [
+    {
+      "check": "JSON: composer.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON: public/manifest.webmanifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JavaScript syntax: public/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JavaScript syntax: public/sw.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JavaScript syntax: public/print.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target AuthController.login",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target AuthController.logout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target AuthController.password",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target ReportController.financial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target ReportController.outstanding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target ReportController.party",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.checkout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.bootstrap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.dashboard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.documents",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.document",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.save",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.save",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.post",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.reverse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.report",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.export",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target BusinessController.print",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target MasterController.save",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target MasterController.save",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target MasterController.settings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target MasterController.user",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target MasterController.user",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target OperationsController.index",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target OperationsController.save",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target OperationsController.save",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target OperationsController.manufacture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target OperationsController.depreciate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target OperationsController.bank",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target OperationsController.bankSave",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target OperationsController.reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target PayrollController.index",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target PayrollController.calculate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target PayrollController.slips",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target PayrollController.post",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target PayrollController.print",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target PayrollController.attendanceList",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target PayrollController.attendance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target ImportController.preview",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Route target ImportController.apply",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: tests/TestCase.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: bootstrap/app.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: bootstrap/providers.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: public/index.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: deploy/hostinger-index.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/session.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/logging.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/app.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/filesystems.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/hashing.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/cache.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/auth.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/view.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/database.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: config/queue.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: routes/web.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: routes/console.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: tests/Unit/AmountTest.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: tests/Feature/PostingTest.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Support/Audit.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Support/Amount.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Support/Access.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Services/DocumentService.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Services/StockService.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Models/User.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Providers/AppServiceProvider.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Http/Middleware/SecureHeaders.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Http/Controllers/MasterController.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Http/Controllers/ImportController.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Http/Controllers/OperationsController.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Http/Controllers/BusinessController.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Http/Controllers/PayrollController.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Http/Controllers/AuthController.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: app/Http/Controllers/ReportController.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: database/seeders/DatabaseSeeder.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PHP opening tag: database/migrations/2026_09_20_000001_create_business_tables.php",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No bundled environment credentials",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No bundled demo password/login",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "php_tests": "NOT RUN: PHP/Composer unavailable",
+  "browser_tests": "NOT RUN: browser preview connection unavailable"
+}
