@@ -25,7 +25,7 @@ GitHub Actions runs SQLite and MySQL tests, lint and Composer audit on each push
 
 Verified GitHub run: [39621512005](https://github.com/shamilvakkaloor/Bizness-I.S.A/actions/runs/39621512005), commit `46dcee8`: **all checks passed**, including PHP 8.3.35, SQLite, MySQL 8.4 and Composer audit. Local authenticated smoke checks returned HTTP 200 for all 18 module/read endpoints. Desktop and 390-pixel mobile screenshots were inspected; login, product creation and settings/team display were checked in a browser.
 
-Deployment status: release prepared, database provisioned, **not yet uploaded**. Hostinger hosting tools became unavailable in the chat before the upload. The domain still needs deployment and live verification.
+Deployment verified 2026-10-22: live at https://buziness.exelapp.com/ on Hostinger. Database initialized and owner login verified. All 18 authenticated module/read endpoints returned HTTP 200. Private backend/configuration paths returned 403; the one-time initializer returned 404 after successful installation. Release archive remains outside public_html. Source secrets and owner credentials are excluded from Git.
 
 ## Development
 
@@ -36,3 +36,4 @@ Install PHP 8.3+ and Composer. Run `composer install`, copy `.env.example` to `.
 Run `python deploy/package.py --secrets <private-json-path>` to stage `.deploy/`, then deploy that directory using Hostinger. Secrets include `app_key`, `db_password` and `setup_token`. Submit the owner password to the token-protected initializer over HTTPS. It removes itself after success. No default credentials are committed.
 
 The packager targets this installation and is for first installation. Before future deployments, preserve runtime configuration and server storage; apply migrations without recreating the owner. Runtime configuration lives outside public_html. Local `.env`, `.tools/`, `.deploy/`, test databases and browser artifacts are ignored by Git.
+
